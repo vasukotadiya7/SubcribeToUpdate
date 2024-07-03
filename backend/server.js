@@ -106,6 +106,6 @@ app.post("/send-updates", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+app.listen(() => {
+  console.log(`Server running on`);
 });
